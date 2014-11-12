@@ -9,12 +9,12 @@ Pod::Spec.new do |s|
   s.name         = "LBinBarButtonItem"
   s.version      = "1.0.0"
   s.summary      = "Flat achieve UIBarButtonItem."
-  s.homepage     = "https://kingly09@github.com/kingly09/LBinBarButtonItem"
+  s.homepage     = "https://github.com/kingly09/LBinBarButtonItem"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author             = { "kingly09" => "libintm@163.com" }
   s.platform     = :ios
   s.source       = { 
-    :git => "https://kingly09@github.com/kingly09/LBinBarButtonItem.git",
+    :git => "https://github.com/kingly09/LBinBarButtonItem.git",
     :tag => s.version.to_s
   }
   s.source_files  = 'lib/**/*.{h,m}'
