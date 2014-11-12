@@ -32,7 +32,7 @@
 
 -(void)clickLeftButton
 {
-    NSLog(@"left button");
+    NSLog(@"left button test!");
 }
 
 @end
