@@ -4,7 +4,7 @@ Pod::Spec.new do |s|
   s.summary      = "Flat achieve UIBarButtonItem."
   s.homepage     = "https://github.com/kingly09/LBinBarButtonItem"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
-  s.author             = { "kingly09" => "info@efcl.info" }
+  s.author       = { "kingly09" => "https://github.com/kingly09" }
   s.platform     = :ios
   s.source       = { 
     :git => "https://github.com/kingly09/LBinBarButtonItem.git",
