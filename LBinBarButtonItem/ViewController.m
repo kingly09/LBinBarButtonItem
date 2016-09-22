@@ -10,7 +10,7 @@
 #import "LBinBarButtonItem.h"
 
 @interface ViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *LabelText;
 @end
 
 @implementation ViewController
@@ -19,9 +19,12 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    UIBarButtonItem *leftButton = nil;
-    leftButton = [LBinBarButtonItem barItemWithImage:[UIImage imageNamed:@"导航栏-按钮-03"] selectedImage:nil target:self action:@selector(clickLeftButton)];
+    UIBarButtonItem *leftButton = [LBinBarButtonItem barItemWithImage:[UIImage imageNamed:@"circles"] selectedImage:nil target:self action:@selector(clickLeftButton:)];
     self.navigationItem.leftBarButtonItem = leftButton;
+    
+    UIBarButtonItem *rightButton = [LBinBarButtonItem barItemWithImage:[UIImage imageNamed:@"icon_tabbar_notification"] selectedImage:[UIImage imageNamed:@"icon_tabbar_notification_active"] target:self action:@selector(clickRightButton:)];
+    self.navigationItem.rightBarButtonItem = rightButton;
+
 
 }
 
@@ -30,9 +33,16 @@
     // Dispose of any resources that can be recreated.
 }
 
--(void)clickLeftButton
+-(void)clickLeftButton:(id)sender
 {
-    NSLog(@"left button test!");
+    self.LabelText.text = @"left button test!";
 }
+
+-(void)clickRightButton:(id)sender{
+
+    self.LabelText.text = @"right button test!";
+}
+
+
 
 @end

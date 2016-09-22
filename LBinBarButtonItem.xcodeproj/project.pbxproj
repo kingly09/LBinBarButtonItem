@@ -14,7 +14,7 @@
 		BC91FEA11A1359E400766548 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC91FEA01A1359E400766548 /* Images.xcassets */; };
 		BC91FEA41A1359E400766548 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC91FEA21A1359E400766548 /* LaunchScreen.xib */; };
 		BC91FEB01A1359E400766548 /* LBinBarButtonItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91FEAF1A1359E400766548 /* LBinBarButtonItemTests.m */; };
-		BC91FEBE1A135ADC00766548 /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC91FEBD1A135ADC00766548 /* LBinBarButtonItem.m */; };
+		BCC520FD1D937AA600072743 /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCC520FC1D937AA600072743 /* LBinBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +41,8 @@
 		BC91FEA91A1359E400766548 /* LBinBarButtonItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBinBarButtonItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC91FEAE1A1359E400766548 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC91FEAF1A1359E400766548 /* LBinBarButtonItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItemTests.m; sourceTree = "<group>"; };
-		BC91FEBC1A135ADC00766548 /* LBinBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBinBarButtonItem.h; sourceTree = "<group>"; };
-		BC91FEBD1A135ADC00766548 /* LBinBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItem.m; sourceTree = "<group>"; };
+		BCC520FB1D937AA600072743 /* LBinBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBinBarButtonItem.h; sourceTree = "<group>"; };
+		BCC520FC1D937AA600072743 /* LBinBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +66,7 @@
 		BC91FE871A1359E400766548 = {
 			isa = PBXGroup;
 			children = (
+				BCC520FA1D937AA600072743 /* BarButtonItemLib */,
 				BC91FE921A1359E400766548 /* LBinBarButtonItem */,
 				BC91FEAC1A1359E400766548 /* LBinBarButtonItemTests */,
 				BC91FE911A1359E400766548 /* Products */,
@@ -84,7 +85,6 @@
 		BC91FE921A1359E400766548 /* LBinBarButtonItem */ = {
 			isa = PBXGroup;
 			children = (
-				BC91FEB91A135A0700766548 /* lib */,
 				BC91FE971A1359E400766548 /* AppDelegate.h */,
 				BC91FE981A1359E400766548 /* AppDelegate.m */,
 				BC91FE9A1A1359E400766548 /* ViewController.h */,
@@ -123,13 +123,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BC91FEB91A135A0700766548 /* lib */ = {
+		BCC520FA1D937AA600072743 /* BarButtonItemLib */ = {
 			isa = PBXGroup;
 			children = (
-				BC91FEBC1A135ADC00766548 /* LBinBarButtonItem.h */,
-				BC91FEBD1A135ADC00766548 /* LBinBarButtonItem.m */,
+				BCC520FB1D937AA600072743 /* LBinBarButtonItem.h */,
+				BCC520FC1D937AA600072743 /* LBinBarButtonItem.m */,
 			);
-			name = lib;
+			path = BarButtonItemLib;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,6 +181,7 @@
 				TargetAttributes = {
 					BC91FE8F1A1359E400766548 = {
 						CreatedOnToolsVersion = 6.1;
+						DevelopmentTeam = V446K9WVQL;
 					};
 					BC91FEA81A1359E400766548 = {
 						CreatedOnToolsVersion = 6.1;
@@ -235,7 +236,7 @@
 				BC91FE9C1A1359E400766548 /* ViewController.m in Sources */,
 				BC91FE991A1359E400766548 /* AppDelegate.m in Sources */,
 				BC91FE961A1359E400766548 /* main.m in Sources */,
-				BC91FEBE1A135ADC00766548 /* LBinBarButtonItem.m in Sources */,
+				BCC520FD1D937AA600072743 /* LBinBarButtonItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,7 +358,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V446K9WVQL;
 				INFOPLIST_FILE = LBinBarButtonItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -367,7 +370,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = V446K9WVQL;
 				INFOPLIST_FILE = LBinBarButtonItem/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -426,6 +431,7 @@
 				BC91FEB51A1359E400766548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC91FEB61A1359E500766548 /* Build configuration list for PBXNativeTarget "LBinBarButtonItemTests" */ = {
 			isa = XCConfigurationList;
@@ -434,6 +440,7 @@
 				BC91FEB81A1359E500766548 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
