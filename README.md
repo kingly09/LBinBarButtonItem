@@ -3,7 +3,17 @@
 
 ![](https://github.com/kingly09/LBinBarButtonItem/blob/master/btn.gif)
 
+
+## CocoaPods
+
+LBinBarButtonItem  can be installed using [CocoaPods](https://cocoapods.org/).
+
+```
+   pod 'LBinBarButtonItem', '~> 0.0.1'
+```
+
 ## How to use
+
 
 Add leftBarButtonItem
 
@@ -16,7 +26,7 @@ Add leftBarButtonItem
 
 ```
 
-Add rightBarButtonItem 
+Add rightBarButtonItem
 
 ```
     UIBarButtonItem *rightButton = [LBinBarButtonItem barItemWithImage:[UIImage imageNamed:@"icon_tabbar_notification"]
