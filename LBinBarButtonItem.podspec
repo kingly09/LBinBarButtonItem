@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "LBinBarButtonItem"
-  s.version      = "v0.0.1"
+  s.version      = "0.0.1"
   s.summary      = "Customize the flat button on the navigation of LBinBarButtonItem."
 
   # This description is used to generate tags and improve search results.
@@ -85,7 +85,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/kingly09/LBinBarButtonItem.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/kingly09/LBinBarButtonItem.git", :tag => s.version}
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
