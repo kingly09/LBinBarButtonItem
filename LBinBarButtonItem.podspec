@@ -8,8 +8,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/kingly09/LBinBarButtonItem.git", :tag => s.version }
   s.social_media_url   = "https://github.com/kingly09"
-  s.source_files       = "BarButtonItemLib", "BarButtonItemLib/**/*.{h,m}"
-  s.framework          = "UIKit"
-#  s.requires_arc = true
-#  s.xcconfig = { "FORK_XCODE_WRITING" => true }
+  s.source_files = 'BarButtonItemLib/*.{h,m}'
+  s.framework    = "UIKit"
+
 end
