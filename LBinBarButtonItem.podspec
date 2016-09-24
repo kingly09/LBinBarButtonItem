@@ -10,5 +10,6 @@ Pod::Spec.new do |s|
   s.social_media_url   = "https://github.com/kingly09"
   s.source_files       = "BarButtonItemLib", "BarButtonItemLib/**/*.{h,m}"
   s.framework          = "UIKit"
+#  s.requires_arc = true
 #  s.xcconfig = { "FORK_XCODE_WRITING" => true }
 end
