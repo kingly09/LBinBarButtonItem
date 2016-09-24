@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0DADC7BD03B5DCBB3D950F81A6D12712 /* LBinBarButtonItem-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFC3B2A4EFA0F2142ADA181AD5A0F66 /* LBinBarButtonItem-dummy.m */; };
+		48DA09654CAF83D03D5CC83C78E8A7CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		6EA0B2E93049C57C93A15340CB804A3E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		711753BCB96C20BA11F01A0431DE7987 /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = DC4B835CB321F7D682A3F56BC492AC58 /* LBinBarButtonItem.m */; };
+		736CCB3B4A3775C71D1233D53459C8B5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
+		85B2D6900FA54BED9D6BAA816F1FC30A /* Pods-LBinBarButtonItemDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3152DB72821D6E4FF618060D6A98B685 /* Pods-LBinBarButtonItemDemo-dummy.m */; };
+		CD3F9A38241E58C0D2CFB1DBCCF793D2 /* LBinBarButtonItem.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9B427BD0ADAD879197E1BEB956427E /* LBinBarButtonItem.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		51D3D256F3DFF338A078C8C086FBE029 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA870C6FB4998F1B44C4DE2F0A41EEF8;
+			remoteInfo = LBinBarButtonItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0152E4A7ECB2830345C676F7D833E50E /* Pods-LBinBarButtonItemDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LBinBarButtonItemDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		12CF0FA62B01223D2A4B9B26482CB0B9 /* libPods-LBinBarButtonItemDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBinBarButtonItemDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2770A6D82518BFC955B83907BAB2A254 /* Pods-LBinBarButtonItemDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBinBarButtonItemDemo-frameworks.sh"; sourceTree = "<group>"; };
+		2CC9E69F6055533C5693F5303AB8CC72 /* Pods-LBinBarButtonItemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBinBarButtonItemDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3152DB72821D6E4FF618060D6A98B685 /* Pods-LBinBarButtonItemDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LBinBarButtonItemDemo-dummy.m"; sourceTree = "<group>"; };
+		7AFC3B2A4EFA0F2142ADA181AD5A0F66 /* LBinBarButtonItem-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LBinBarButtonItem-dummy.m"; sourceTree = "<group>"; };
+		90729BC6BBD44199423A100580F76942 /* libLBinBarButtonItem.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libLBinBarButtonItem.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		BE7778E249DF79EE43DBA0C69DB94318 /* LBinBarButtonItem-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LBinBarButtonItem-prefix.pch"; sourceTree = "<group>"; };
+		DC4B835CB321F7D682A3F56BC492AC58 /* LBinBarButtonItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LBinBarButtonItem.m; path = BarButtonItemLib/LBinBarButtonItem.m; sourceTree = "<group>"; };
+		E80D2828BAD090F5134EB88DE73471CF /* Pods-LBinBarButtonItemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LBinBarButtonItemDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		E9C260494622437FA75663E8A273A40A /* Pods-LBinBarButtonItemDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LBinBarButtonItemDemo-resources.sh"; sourceTree = "<group>"; };
+		EF9B427BD0ADAD879197E1BEB956427E /* LBinBarButtonItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = LBinBarButtonItem.h; path = BarButtonItemLib/LBinBarButtonItem.h; sourceTree = "<group>"; };
+		F1CED9A224D772B0D2B0BE4CAAD43A49 /* Pods-LBinBarButtonItemDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LBinBarButtonItemDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		F3671C7318ADB1A0B017937CF8FB93B4 /* LBinBarButtonItem.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LBinBarButtonItem.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30DACEC18810CB1A7BFAE53C56B88AB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EA0B2E93049C57C93A15340CB804A3E /* Foundation.framework in Frameworks */,
+				736CCB3B4A3775C71D1233D53459C8B5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB32E94DA718AA68BBCE2CE518A1C119 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48DA09654CAF83D03D5CC83C78E8A7CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		411CDDFAF5FAFADE08BB04485FD52DD7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8968D343B01A19AD84C899A24BF4E62E /* Pods-LBinBarButtonItemDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		44344F157AC1648171BC94814A4671BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				631D4E277567A39EC860BF2F37888D60 /* LBinBarButtonItem */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		631D4E277567A39EC860BF2F37888D60 /* LBinBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				EF9B427BD0ADAD879197E1BEB956427E /* LBinBarButtonItem.h */,
+				DC4B835CB321F7D682A3F56BC492AC58 /* LBinBarButtonItem.m */,
+				7189E9B19AB4135D27EFCE05D03EC280 /* Support Files */,
+			);
+			path = LBinBarButtonItem;
+			sourceTree = "<group>";
+		};
+		7189E9B19AB4135D27EFCE05D03EC280 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F3671C7318ADB1A0B017937CF8FB93B4 /* LBinBarButtonItem.xcconfig */,
+				7AFC3B2A4EFA0F2142ADA181AD5A0F66 /* LBinBarButtonItem-dummy.m */,
+				BE7778E249DF79EE43DBA0C69DB94318 /* LBinBarButtonItem-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/LBinBarButtonItem";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				44344F157AC1648171BC94814A4671BD /* Pods */,
+				DB92F532F445A7B4F66D990326DBFC2E /* Products */,
+				411CDDFAF5FAFADE08BB04485FD52DD7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8968D343B01A19AD84C899A24BF4E62E /* Pods-LBinBarButtonItemDemo */ = {
+			isa = PBXGroup;
+			children = (
+				0152E4A7ECB2830345C676F7D833E50E /* Pods-LBinBarButtonItemDemo-acknowledgements.markdown */,
+				F1CED9A224D772B0D2B0BE4CAAD43A49 /* Pods-LBinBarButtonItemDemo-acknowledgements.plist */,
+				3152DB72821D6E4FF618060D6A98B685 /* Pods-LBinBarButtonItemDemo-dummy.m */,
+				2770A6D82518BFC955B83907BAB2A254 /* Pods-LBinBarButtonItemDemo-frameworks.sh */,
+				E9C260494622437FA75663E8A273A40A /* Pods-LBinBarButtonItemDemo-resources.sh */,
+				E80D2828BAD090F5134EB88DE73471CF /* Pods-LBinBarButtonItemDemo.debug.xcconfig */,
+				2CC9E69F6055533C5693F5303AB8CC72 /* Pods-LBinBarButtonItemDemo.release.xcconfig */,
+			);
+			name = "Pods-LBinBarButtonItemDemo";
+			path = "Target Support Files/Pods-LBinBarButtonItemDemo";
+			sourceTree = "<group>";
+		};
+		DB92F532F445A7B4F66D990326DBFC2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				90729BC6BBD44199423A100580F76942 /* libLBinBarButtonItem.a */,
+				12CF0FA62B01223D2A4B9B26482CB0B9 /* libPods-LBinBarButtonItemDemo.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
+				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		861E9FCC3F4054F35EB3143562A5B5F1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD3F9A38241E58C0D2CFB1DBCCF793D2 /* LBinBarButtonItem.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		BB6835F894612188840775F338C73E54 /* Pods-LBinBarButtonItemDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F83466AFD6C7060A27944C45E25ABD52 /* Build configuration list for PBXNativeTarget "Pods-LBinBarButtonItemDemo" */;
+			buildPhases = (
+				2578419CD7A35A29FC9F666487A1007F /* Sources */,
+				AB32E94DA718AA68BBCE2CE518A1C119 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2705BD8B134B389B3853967F637EC024 /* PBXTargetDependency */,
+			);
+			name = "Pods-LBinBarButtonItemDemo";
+			productName = "Pods-LBinBarButtonItemDemo";
+			productReference = 12CF0FA62B01223D2A4B9B26482CB0B9 /* libPods-LBinBarButtonItemDemo.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CA870C6FB4998F1B44C4DE2F0A41EEF8 /* LBinBarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 20A00A4CB98B408A393F8E986B7C6655 /* Build configuration list for PBXNativeTarget "LBinBarButtonItem" */;
+			buildPhases = (
+				08581AB6DB509C042EF8C4BF56BAC830 /* Sources */,
+				30DACEC18810CB1A7BFAE53C56B88AB1 /* Frameworks */,
+				861E9FCC3F4054F35EB3143562A5B5F1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LBinBarButtonItem;
+			productName = LBinBarButtonItem;
+			productReference = 90729BC6BBD44199423A100580F76942 /* libLBinBarButtonItem.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = DB92F532F445A7B4F66D990326DBFC2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA870C6FB4998F1B44C4DE2F0A41EEF8 /* LBinBarButtonItem */,
+				BB6835F894612188840775F338C73E54 /* Pods-LBinBarButtonItemDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08581AB6DB509C042EF8C4BF56BAC830 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0DADC7BD03B5DCBB3D950F81A6D12712 /* LBinBarButtonItem-dummy.m in Sources */,
+				711753BCB96C20BA11F01A0431DE7987 /* LBinBarButtonItem.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2578419CD7A35A29FC9F666487A1007F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85B2D6900FA54BED9D6BAA816F1FC30A /* Pods-LBinBarButtonItemDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2705BD8B134B389B3853967F637EC024 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LBinBarButtonItem;
+			target = CA870C6FB4998F1B44C4DE2F0A41EEF8 /* LBinBarButtonItem */;
+			targetProxy = 51D3D256F3DFF338A078C8C086FBE029 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		015A368F878AC3E2CEAE21DDE8026304 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		09F431662597D7858A3F0DFABFFC115D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80D2828BAD090F5134EB88DE73471CF /* Pods-LBinBarButtonItemDemo.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55DBA0B6C72A4CACE6F0230F6E87082E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3671C7318ADB1A0B017937CF8FB93B4 /* LBinBarButtonItem.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBinBarButtonItem/LBinBarButtonItem-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5D3373BF4CDD55D56D748A37A7698B6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2CC9E69F6055533C5693F5303AB8CC72 /* Pods-LBinBarButtonItemDemo.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EDFB0439DEBBCDA244AECACE48CCC282 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F3671C7318ADB1A0B017937CF8FB93B4 /* LBinBarButtonItem.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LBinBarButtonItem/LBinBarButtonItem-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		20A00A4CB98B408A393F8E986B7C6655 /* Build configuration list for PBXNativeTarget "LBinBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EDFB0439DEBBCDA244AECACE48CCC282 /* Debug */,
+				55DBA0B6C72A4CACE6F0230F6E87082E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				015A368F878AC3E2CEAE21DDE8026304 /* Debug */,
+				44CDBB6D11DE06DB64D6268622BDC47E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F83466AFD6C7060A27944C45E25ABD52 /* Build configuration list for PBXNativeTarget "Pods-LBinBarButtonItemDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09F431662597D7858A3F0DFABFFC115D /* Debug */,
+				5D3373BF4CDD55D56D748A37A7698B6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

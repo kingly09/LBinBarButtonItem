@@ -6,12 +6,8 @@
 //  Copyright (c) 2014年 kingly. All rights reserved.
 //
 
+//按钮扁平化类
 
-/**
- 按钮扁平化类
-
- @return return 按钮扁平化类
- */
 #import "LBinBarButtonItem.h"
 
 @interface LBinBarButtonItem() {

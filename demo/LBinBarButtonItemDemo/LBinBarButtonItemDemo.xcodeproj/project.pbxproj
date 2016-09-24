@@ -16,7 +16,7 @@
 		BC3A4B731D94D9A30020EDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3A4B711D94D9A30020EDCA /* LaunchScreen.storyboard */; };
 		BC3A4B7E1D94D9A30020EDCA /* LBinBarButtonItemDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A4B7D1D94D9A30020EDCA /* LBinBarButtonItemDemoTests.m */; };
 		BC3A4B891D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A4B881D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m */; };
-		BCB6DFF21D965BE100A1F58E /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */; };
+		CC37E8C3D27C61105099BF2B /* libPods-LBinBarButtonItemDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D95D44BC1FDF9494C7521A30 /* libPods-LBinBarButtonItemDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B54ECFB403A4197C373660FC /* Pods-LBinBarButtonItemDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBinBarButtonItemDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LBinBarButtonItemDemo/Pods-LBinBarButtonItemDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		BC3A4B5D1D94D9A30020EDCA /* LBinBarButtonItemDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LBinBarButtonItemDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3A4B611D94D9A30020EDCA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BC3A4B631D94D9A30020EDCA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,8 +55,8 @@
 		BC3A4B841D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBinBarButtonItemDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3A4B881D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItemDemoUITests.m; sourceTree = "<group>"; };
 		BC3A4B8A1D94D9A30020EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BCB6DFF01D965BE100A1F58E /* LBinBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBinBarButtonItem.h; sourceTree = "<group>"; };
-		BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItem.m; sourceTree = "<group>"; };
+		D95D44BC1FDF9494C7521A30 /* libPods-LBinBarButtonItemDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LBinBarButtonItemDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFFDB53883FF96C02F85339E /* Pods-LBinBarButtonItemDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LBinBarButtonItemDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-LBinBarButtonItemDemo/Pods-LBinBarButtonItemDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC37E8C3D27C61105099BF2B /* libPods-LBinBarButtonItemDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		45259DF2FB0E98AD6AD02340 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B54ECFB403A4197C373660FC /* Pods-LBinBarButtonItemDemo.debug.xcconfig */,
+				FFFDB53883FF96C02F85339E /* Pods-LBinBarButtonItemDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		492D2BDC1CC02301C4B115C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D95D44BC1FDF9494C7521A30 /* libPods-LBinBarButtonItemDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		BC3A4B541D94D9A30020EDCA = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +109,8 @@
 				BC3A4B7C1D94D9A30020EDCA /* LBinBarButtonItemDemoTests */,
 				BC3A4B871D94D9A30020EDCA /* LBinBarButtonItemDemoUITests */,
 				BC3A4B5E1D94D9A30020EDCA /* Products */,
+				45259DF2FB0E98AD6AD02340 /* Pods */,
+				492D2BDC1CC02301C4B115C4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -106,7 +127,6 @@
 		BC3A4B5F1D94D9A30020EDCA /* LBinBarButtonItemDemo */ = {
 			isa = PBXGroup;
 			children = (
-				BCB6DFEF1D965BE100A1F58E /* BarButtonItemLib */,
 				BC3A4B631D94D9A30020EDCA /* AppDelegate.h */,
 				BC3A4B641D94D9A30020EDCA /* AppDelegate.m */,
 				BC3A4B661D94D9A30020EDCA /* ViewController.h */,
@@ -147,15 +167,6 @@
 			path = LBinBarButtonItemDemoUITests;
 			sourceTree = "<group>";
 		};
-		BCB6DFEF1D965BE100A1F58E /* BarButtonItemLib */ = {
-			isa = PBXGroup;
-			children = (
-				BCB6DFF01D965BE100A1F58E /* LBinBarButtonItem.h */,
-				BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */,
-			);
-			path = BarButtonItemLib;
-			sourceTree = SOURCE_ROOT;
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -163,9 +174,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BC3A4B8D1D94D9A30020EDCA /* Build configuration list for PBXNativeTarget "LBinBarButtonItemDemo" */;
 			buildPhases = (
+				985EA527D25A6E1A2E86CF5C /* [CP] Check Pods Manifest.lock */,
 				BC3A4B591D94D9A30020EDCA /* Sources */,
 				BC3A4B5A1D94D9A30020EDCA /* Frameworks */,
 				BC3A4B5B1D94D9A30020EDCA /* Resources */,
+				02CC663C7C2ADE8239501BF4 /* [CP] Embed Pods Frameworks */,
+				2F20CEFBDB489525AC395995 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -287,6 +301,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		02CC663C7C2ADE8239501BF4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBinBarButtonItemDemo/Pods-LBinBarButtonItemDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2F20CEFBDB489525AC395995 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LBinBarButtonItemDemo/Pods-LBinBarButtonItemDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		985EA527D25A6E1A2E86CF5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BC3A4B591D94D9A30020EDCA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -294,7 +356,6 @@
 			files = (
 				BC3A4B6E1D94D9A30020EDCA /* LBinBarButtonItemDemo.xcdatamodeld in Sources */,
 				BC3A4B681D94D9A30020EDCA /* ViewController.m in Sources */,
-				BCB6DFF21D965BE100A1F58E /* LBinBarButtonItem.m in Sources */,
 				BC3A4B651D94D9A30020EDCA /* AppDelegate.m in Sources */,
 				BC3A4B621D94D9A30020EDCA /* main.m in Sources */,
 			);
@@ -443,6 +504,7 @@
 		};
 		BC3A4B8E1D94D9A30020EDCA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B54ECFB403A4197C373660FC /* Pods-LBinBarButtonItemDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V446K9WVQL;
@@ -456,6 +518,7 @@
 		};
 		BC3A4B8F1D94D9A30020EDCA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFFDB53883FF96C02F85339E /* Pods-LBinBarButtonItemDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = V446K9WVQL;

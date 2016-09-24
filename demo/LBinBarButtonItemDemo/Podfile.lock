@@ -1,0 +1,12 @@
+PODS:
+  - LBinBarButtonItem (0.0.3)
+
+DEPENDENCIES:
+  - LBinBarButtonItem (~> 0.0.3)
+
+SPEC CHECKSUMS:
+  LBinBarButtonItem: f6d6a5b65b6e21c996805f6d2a9034c0be0f846d
+
+PODFILE CHECKSUM: 1bcb1deb0b69652bd0a40e347c9592044753fa51
+
+COCOAPODS: 1.1.0.beta.2
