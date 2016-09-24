@@ -16,7 +16,7 @@
 		BC3A4B731D94D9A30020EDCA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC3A4B711D94D9A30020EDCA /* LaunchScreen.storyboard */; };
 		BC3A4B7E1D94D9A30020EDCA /* LBinBarButtonItemDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A4B7D1D94D9A30020EDCA /* LBinBarButtonItemDemoTests.m */; };
 		BC3A4B891D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A4B881D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m */; };
-		BC3A4B991D94DA0D0020EDCA /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BC3A4B981D94DA0D0020EDCA /* LBinBarButtonItem.m */; };
+		BCB6DFF21D965BE100A1F58E /* LBinBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,8 +54,8 @@
 		BC3A4B841D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LBinBarButtonItemDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC3A4B881D94D9A30020EDCA /* LBinBarButtonItemDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItemDemoUITests.m; sourceTree = "<group>"; };
 		BC3A4B8A1D94D9A30020EDCA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC3A4B971D94DA0D0020EDCA /* LBinBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBinBarButtonItem.h; sourceTree = "<group>"; };
-		BC3A4B981D94DA0D0020EDCA /* LBinBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItem.m; sourceTree = "<group>"; };
+		BCB6DFF01D965BE100A1F58E /* LBinBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LBinBarButtonItem.h; sourceTree = "<group>"; };
+		BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LBinBarButtonItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +86,6 @@
 		BC3A4B541D94D9A30020EDCA = {
 			isa = PBXGroup;
 			children = (
-				BC3A4B961D94DA0D0020EDCA /* BarButtonItemLib */,
 				BC3A4B5F1D94D9A30020EDCA /* LBinBarButtonItemDemo */,
 				BC3A4B7C1D94D9A30020EDCA /* LBinBarButtonItemDemoTests */,
 				BC3A4B871D94D9A30020EDCA /* LBinBarButtonItemDemoUITests */,
@@ -107,6 +106,7 @@
 		BC3A4B5F1D94D9A30020EDCA /* LBinBarButtonItemDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BCB6DFEF1D965BE100A1F58E /* BarButtonItemLib */,
 				BC3A4B631D94D9A30020EDCA /* AppDelegate.h */,
 				BC3A4B641D94D9A30020EDCA /* AppDelegate.m */,
 				BC3A4B661D94D9A30020EDCA /* ViewController.h */,
@@ -147,14 +147,14 @@
 			path = LBinBarButtonItemDemoUITests;
 			sourceTree = "<group>";
 		};
-		BC3A4B961D94DA0D0020EDCA /* BarButtonItemLib */ = {
+		BCB6DFEF1D965BE100A1F58E /* BarButtonItemLib */ = {
 			isa = PBXGroup;
 			children = (
-				BC3A4B971D94DA0D0020EDCA /* LBinBarButtonItem.h */,
-				BC3A4B981D94DA0D0020EDCA /* LBinBarButtonItem.m */,
+				BCB6DFF01D965BE100A1F58E /* LBinBarButtonItem.h */,
+				BCB6DFF11D965BE100A1F58E /* LBinBarButtonItem.m */,
 			);
 			path = BarButtonItemLib;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -294,7 +294,7 @@
 			files = (
 				BC3A4B6E1D94D9A30020EDCA /* LBinBarButtonItemDemo.xcdatamodeld in Sources */,
 				BC3A4B681D94D9A30020EDCA /* ViewController.m in Sources */,
-				BC3A4B991D94DA0D0020EDCA /* LBinBarButtonItem.m in Sources */,
+				BCB6DFF21D965BE100A1F58E /* LBinBarButtonItem.m in Sources */,
 				BC3A4B651D94D9A30020EDCA /* AppDelegate.m in Sources */,
 				BC3A4B621D94D9A30020EDCA /* main.m in Sources */,
 			);
@@ -536,6 +536,7 @@
 				BC3A4B8F1D94D9A30020EDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3A4B901D94D9A30020EDCA /* Build configuration list for PBXNativeTarget "LBinBarButtonItemDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +545,7 @@
 				BC3A4B921D94D9A30020EDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BC3A4B931D94D9A30020EDCA /* Build configuration list for PBXNativeTarget "LBinBarButtonItemDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +554,7 @@
 				BC3A4B951D94D9A30020EDCA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

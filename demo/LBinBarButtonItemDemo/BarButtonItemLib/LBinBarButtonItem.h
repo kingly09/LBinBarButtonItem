@@ -16,8 +16,6 @@
     UIImage *customSelectedImage;
     SEL customAction;
 }
-
-
 /**
  创建并返回一个新的按钮。
 
