@@ -9,7 +9,7 @@
 LBinBarButtonItem  can be installed using [CocoaPods](https://cocoapods.org/).
 
 ```
-   pod 'LBinBarButtonItem', '~> 0.0.2'
+   pod 'LBinBarButtonItem', '~> 0.0.3'
 ```
 
 ## How to use
